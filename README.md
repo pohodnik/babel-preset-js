@@ -2,5 +2,5 @@
 Babel preset for js
 
 ```
-yarn add -D @pohodnik/babel-preset-js
+yarn add -D @pohodnik/babel-preset-react
 ```
