@@ -5,12 +5,6 @@ module.exports = function () {
             '@babel/preset-react'
         ],
         env: {
-            test: {
-                plugins: []
-            },
-            development: {
-                plugins: []
-            },
             production: {
                 plugins: ['babel-plugin-transform-react-remove-prop-types', { removeImport: true }]
             }
