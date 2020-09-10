@@ -1,25 +1,25 @@
 {
-  "name": "@pohodnik/babel-preset-js",
+  "name": "@pohodnik/babel-preset-react",
   "version": "1.0.0",
-  "description": "Babel preset for pohodnik's developers",
+  "description": "Babel preset for pohodnik's react developers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pohodnik/babel-preset-js.git"
+    "url": "git+https://github.com/pohodnik/babel-preset-react.git"
   },
   "keywords": [
     "babel",
-    "js",
+    "react",
     "pohodnik",
     "pohodnik58"
   ],
   "author": "Pohodnik <pohodnik58@gmail.com> (http://pohodnik.tk)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pohodnik/babel-preset-js/issues"
+    "url": "https://github.com/pohodnik/babel-preset-react/issues"
   },
-  "homepage": "https://github.com/pohodnik/babel-preset-js#readme"
+  "homepage": "https://github.com/pohodnik/babel-preset-react#readme"
 }
