@@ -1,13 +1,14 @@
-module.exports = function () {
-    return {
-        presets: [
-            '@pohodnik/babel-preset',
-            '@babel/preset-react'
-        ],
-        env: {
-            production: {
-                plugins: ['babel-plugin-transform-react-remove-prop-types', { removeImport: true }]
-            }
+// eslint-disable-next-line global-require,import/no-dynamic-require
+const use = pkg => require(pkg).default;
+
+module.exports = () => ({
+    presets: [
+        use('@pohodnik/babel-preset'),
+        use('@babel/preset-react')
+    ],
+    env: {
+        production: {
+            plugins: [use('babel-plugin-transform-react-remove-prop-types'), { removeImport: true }]
         }
-    };
-};
+    }
+});
