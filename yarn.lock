@@ -1055,10 +1055,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@pohodnik/babel-preset@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@pohodnik/babel-preset/-/babel-preset-2.0.9.tgz#a0833dcc71e354a78e51d1e7dcef5ac4e39be597"
-  integrity sha512-816gTJo+GSamqOHC3hZ4oZ29EFeQPxVTEnHPQKi1YHdz3jti6kWXfIUCA0wtNKOIvd0CqhuWWlJMRkSceEPOUw==
+"@pohodnik/babel-preset@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@pohodnik/babel-preset/-/babel-preset-2.0.10.tgz#1798f05d64246bb2c2436ce0cab16e5ce2f2e071"
+  integrity sha512-adXhyR3bz5csU1Xt+vPfVgf1dP2gYyaORzI/g2IHCDPx6h1eKn8CR4STLJKP8kGGOwMSWKNwN5Y6ibxmhNLXjg==
   dependencies:
     "@babel/core" "^7.11.6"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
