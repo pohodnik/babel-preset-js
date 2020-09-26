@@ -3,7 +3,6 @@ const use = pkg => require(pkg).default;
 
 module.exports = () => ({
     presets: [
-        '@pohodnik/babel-preset',
         use('@babel/preset-react')
     ],
     env: {
